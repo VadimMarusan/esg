@@ -1,0 +1,74 @@
+﻿body.edit-mode .component-wrapper {
+	border: 2px solid #EEE;
+	border-top: none;
+	box-sizing: border-box;
+	margin: 5px;
+	overflow: visible;
+}
+
+    body.edit-mode .component-wrapper.scPlaceholder {
+        border: none;
+        padding-left:1rem;
+    }
+
+/*For header,Navigation and Footer component*/
+body.edit-mode .component-wrapper.scPlaceholder.uneditable-component{
+    border: 2px solid #AF272F;
+}
+
+/*For header,Navigation and Footer component*/
+body.edit-mode .component-wrapper.scRendering.uneditable-component span.wrapper-header  {
+		background-color: #AF272F;
+		color: White;
+	}
+
+body.edit-mode .component-wrapper.scPlaceholder.uneditable-component span.wrapper-header  {
+		background-color: #AF272F;
+		color: White;
+	}
+	
+	body.edit-mode .component-wrapper.scRendering {
+        border:none;
+		/*border: 2px solid #4D82B8;
+		border-top: none;
+        border-bottom:none;*/
+	}
+
+	body.edit-mode .component-wrapper span.wrapper-header {
+		background-color: #EEE;
+		color: #111;
+		display: block;
+		font-size: 12px;
+		font-family: Arial, sans-serif;
+		height: 20px;
+		line-height: 20px;
+		padding: 0 10px;
+		text-align: left;
+	}
+
+
+	body.edit-mode .component-wrapper.scRendering span.wrapper-header {
+		background-color: #4D82B8;
+		color: White;
+	}
+
+    body.edit-mode .component-wrapper.scPlaceholder > span.wrapper-header {
+		background-color: #474747;
+        color:white;
+	}
+
+	body.edit-mode .component-wrapper .component-content {
+		min-height: 20px;
+	}
+
+		body.edit-mode .component-wrapper .component-content .component-wrapper {
+			margin: 1em 0;
+		}
+
+body.edit-mode .mdl-container .mdl-locations-container .scEmptyImage {
+	display: none;
+}
+
+body.edit-mode .scLooseFrameZone.scEnabledChrome {
+	border: 2px solid #E08438;
+}
